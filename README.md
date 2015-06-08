@@ -1,6 +1,6 @@
-# Jeff’s dotfiles
+# Eddie’s dotfiles
 
-These were shamelessly lifted from [Matthias Bynens](https://github.com/jeffbyrnes) dotfiles, and edited to suit my setup.
+These were shamelessly lifted from [Jeff Byne's](https://github.com/jeffbyrnes) dotfiles which in turn were lifted from [Matthias Bynen's](https://github.com/mathiasbynens) dotfiles, and edited to suit my setup.
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
