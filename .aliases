@@ -179,3 +179,6 @@ alias FUCK='fuck'
 alias prod-api-httpd-restart="ssh -t prod-api-1 'sudo service httpd restart' && ssh -t prod-api-2 'sudo service httpd restart'"
 alias update_cookbooks="find ${HOME}/dev/server-chef/cookbooks/ -type d -maxdepth 1 -exec sh -c '(cd {} && pwd && git pull)' ';'"
 alias ec2ls="knife ec2 server list --no-image --no-key --vpc --tags Type"
+
+# Run a web server with the PWD as the document root: $ serve <port>
+alias serve="python -m SimpleHTTPServer"
