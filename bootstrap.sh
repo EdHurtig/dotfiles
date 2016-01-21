@@ -34,6 +34,7 @@ function _install_brew() {
 function _install_brew_packages() {
 	brew install wget
 	brew install npm
+	brew install watch
 }
 
 function _install_dev_tools() {
