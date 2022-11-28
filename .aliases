@@ -15,6 +15,19 @@ alias g="git"
 alias h="history"
 alias j="jobs"
 
+# Git Aliases
+alias gs="git status"
+alias gd="git diff"
+alias gc="git commit"
+alias gco="git checkout"
+alias gp="git push"
+alias gpo="git push origin"
+alias grbi="git rebase --interactive"
+alias grbc="git rebase --continue"
+alias grba="git rebase --abort"
+alias branch="git rev-parse --abbrev-ref HEAD"
+
+
 # Open any files marked as “modified” in your default editor.
 alias changed='open `git status --porcelain | sed -ne "s/^ M //p"`'
 
